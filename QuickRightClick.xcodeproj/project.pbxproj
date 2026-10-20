@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DBF5EB24C0C15B9806024C3 /* MenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF4A0FA6A87747A725ABF89 /* MenuConfiguration.swift */; };
+		14B87D968E3CCB89EBFDDB16 /* MenuActionExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141796A6D830D5B55B33E721 /* MenuActionExecutor.swift */; };
+		150D6F199E41F4A45A0CD0AB /* QuickRightClickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8227E15C24BAEF7A1DF12507 /* QuickRightClickApp.swift */; };
+		2B1072B4EADA531B68A26687 /* MenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF4A0FA6A87747A725ABF89 /* MenuConfiguration.swift */; };
+		2DC3DD2D843CCC394BE51323 /* MenuActionExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141796A6D830D5B55B33E721 /* MenuActionExecutor.swift */; };
+		2F51DFC5351B6B2083C71DDE /* MenuActionExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141796A6D830D5B55B33E721 /* MenuActionExecutor.swift */; };
+		43BD5FE56FDB7C6BA7C301A9 /* QuickRightClickExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E97BD70E8F6CAE165A587FCC /* QuickRightClickExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		69F26FD814DF86C145FCE2C5 /* ConfigurationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ED0B166B1C0974A485BD12 /* ConfigurationStore.swift */; };
+		8810E9B1EE7FD0E1A768A814 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0962FF6299A3E6984BB9D2A1 /* SettingsModel.swift */; };
+		882D62830107B6ECC8E7C54D /* ConfigurationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ED0B166B1C0974A485BD12 /* ConfigurationStore.swift */; };
+		9F456EB224EDB7401E0B3167 /* QuickRightClickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AE72D02DD1928D46B2C642 /* QuickRightClickTests.swift */; };
+		A5D193F2FDA10A2FC94F5844 /* ConfigurationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ED0B166B1C0974A485BD12 /* ConfigurationStore.swift */; };
+		AF82BAF46E1CCFB71DDEC76B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F232D058A8967E2726AC2586 /* Assets.xcassets */; };
+		C28EEC70FF7BDA699F8EF8B5 /* MenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF4A0FA6A87747A725ABF89 /* MenuConfiguration.swift */; };
+		C633D16896419010834DC078 /* FinderSyncExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCFE794C5CE21E951D877DD /* FinderSyncExtension.swift */; };
+		F745A1924941EEAEF3D7B934 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EDE9084C627BE12EEF646F /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A034BB38B5A3057FC4C817B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3F992C91839FEAEFF4C03D1;
+			remoteInfo = QuickRightClickExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6DC17D080A0011FC57598B24 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				43BD5FE56FDB7C6BA7C301A9 /* QuickRightClickExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0962FF6299A3E6984BB9D2A1 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		141796A6D830D5B55B33E721 /* MenuActionExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuActionExecutor.swift; sourceTree = "<group>"; };
+		254AE0C544D4341433749E61 /* QuickRightClick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickRightClick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F1A28967D009DABE6EB1D4 /* QuickRightClickExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuickRightClickExtension.entitlements; sourceTree = "<group>"; };
+		479DA0111EAEF1DBEFC00DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68AE72D02DD1928D46B2C642 /* QuickRightClickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickRightClickTests.swift; sourceTree = "<group>"; };
+		6BCFE794C5CE21E951D877DD /* FinderSyncExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSyncExtension.swift; sourceTree = "<group>"; };
+		8227E15C24BAEF7A1DF12507 /* QuickRightClickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickRightClickApp.swift; sourceTree = "<group>"; };
+		9C488072313D576C609F705E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C9C452E2513B923C8730ED8 /* QuickRightClick.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuickRightClick.entitlements; sourceTree = "<group>"; };
+		B1ED0B166B1C0974A485BD12 /* ConfigurationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationStore.swift; sourceTree = "<group>"; };
+		CCF4A0FA6A87747A725ABF89 /* MenuConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuConfiguration.swift; sourceTree = "<group>"; };
+		E97BD70E8F6CAE165A587FCC /* QuickRightClickExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = QuickRightClickExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F232D058A8967E2726AC2586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2EDE9084C627BE12EEF646F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F680FC447C3ECF579F06F6F3 /* QuickRightClickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickRightClickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59D3CE8E83BAFEF46168D3DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83CFBA4C472BD69BB8EB56A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFA3C0EC8FBF41437791F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BE091DA3006EF7CF6F83C84 /* QuickRightClick */ = {
+			isa = PBXGroup;
+			children = (
+				510489EBC5593C781BF1FE60 /* Shared */,
+				19AD5E543C0220E084901073 /* App */,
+				46E39959AEA4770DA3004CAF /* Extension */,
+				255CE7F966B4E718F42C7992 /* App */,
+				43931CF8D8FF624E4C75AE32 /* Products */,
+			);
+			name = QuickRightClick;
+			sourceTree = "<group>";
+		};
+		19AD5E543C0220E084901073 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8227E15C24BAEF7A1DF12507 /* QuickRightClickApp.swift */,
+				0962FF6299A3E6984BB9D2A1 /* SettingsModel.swift */,
+				F2EDE9084C627BE12EEF646F /* SettingsView.swift */,
+				F232D058A8967E2726AC2586 /* Assets.xcassets */,
+				9C488072313D576C609F705E /* Info.plist */,
+				9C9C452E2513B923C8730ED8 /* QuickRightClick.entitlements */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		255CE7F966B4E718F42C7992 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				68AE72D02DD1928D46B2C642 /* QuickRightClickTests.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		43931CF8D8FF624E4C75AE32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				254AE0C544D4341433749E61 /* QuickRightClick.app */,
+				E97BD70E8F6CAE165A587FCC /* QuickRightClickExtension.appex */,
+				F680FC447C3ECF579F06F6F3 /* QuickRightClickTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46E39959AEA4770DA3004CAF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6BCFE794C5CE21E951D877DD /* FinderSyncExtension.swift */,
+				479DA0111EAEF1DBEFC00DF4 /* Info.plist */,
+				39F1A28967D009DABE6EB1D4 /* QuickRightClickExtension.entitlements */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		510489EBC5593C781BF1FE60 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CCF4A0FA6A87747A725ABF89 /* MenuConfiguration.swift */,
+				B1ED0B166B1C0974A485BD12 /* ConfigurationStore.swift */,
+				141796A6D830D5B55B33E721 /* MenuActionExecutor.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		003F3CDBE82D57B9B20B62E2 /* QuickRightClick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FBBDE84ABCC716EC479869 /* Build configuration list for PBXNativeTarget "QuickRightClick" */;
+			buildPhases = (
+				449D54AE89ECEFEA50400310 /* Sources */,
+				59D3CE8E83BAFEF46168D3DA /* Frameworks */,
+				5A424A9EE3C59750E9BE4182 /* Resources */,
+				6DC17D080A0011FC57598B24 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17A8F23711AAE3E2B3370B78 /* PBXTargetDependency */,
+			);
+			name = QuickRightClick;
+			productName = QuickRightClick;
+			productReference = 254AE0C544D4341433749E61 /* QuickRightClick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11F5956CABE26A31BC36B2AD /* QuickRightClickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6AD230CB080FF15A6673B47 /* Build configuration list for PBXNativeTarget "QuickRightClickTests" */;
+			buildPhases = (
+				148D89A2832962E2569A5928 /* Sources */,
+				DBFA3C0EC8FBF41437791F63 /* Frameworks */,
+				F146210B908FB60A024C6416 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickRightClickTests;
+			productName = QuickRightClickTests;
+			productReference = F680FC447C3ECF579F06F6F3 /* QuickRightClickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3F992C91839FEAEFF4C03D1 /* QuickRightClickExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C739B4F5D9CF01EA5EB684 /* Build configuration list for PBXNativeTarget "QuickRightClickExtension" */;
+			buildPhases = (
+				50F66A98A75656AB882AD9A8 /* Sources */,
+				83CFBA4C472BD69BB8EB56A4 /* Frameworks */,
+				1ED241CB70A2F0BA250C92F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickRightClickExtension;
+			productName = QuickRightClickExtension;
+			productReference = E97BD70E8F6CAE165A587FCC /* QuickRightClickExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+			};
+			buildConfigurationList = 26E84C2B3712F7DFAC8AD93F /* Build configuration list for PBXProject "QuickRightClick" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = zh_CN;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				zh_CN,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 0BE091DA3006EF7CF6F83C84 /* QuickRightClick */;
+			productRefGroup = 43931CF8D8FF624E4C75AE32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3F992C91839FEAEFF4C03D1 /* QuickRightClickExtension */,
+				003F3CDBE82D57B9B20B62E2 /* QuickRightClick */,
+				11F5956CABE26A31BC36B2AD /* QuickRightClickTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ED241CB70A2F0BA250C92F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A424A9EE3C59750E9BE4182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF82BAF46E1CCFB71DDEC76B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F146210B908FB60A024C6416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		148D89A2832962E2569A5928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DBF5EB24C0C15B9806024C3 /* MenuConfiguration.swift in Sources */,
+				69F26FD814DF86C145FCE2C5 /* ConfigurationStore.swift in Sources */,
+				2F51DFC5351B6B2083C71DDE /* MenuActionExecutor.swift in Sources */,
+				9F456EB224EDB7401E0B3167 /* QuickRightClickTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449D54AE89ECEFEA50400310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28EEC70FF7BDA699F8EF8B5 /* MenuConfiguration.swift in Sources */,
+				A5D193F2FDA10A2FC94F5844 /* ConfigurationStore.swift in Sources */,
+				14B87D968E3CCB89EBFDDB16 /* MenuActionExecutor.swift in Sources */,
+				150D6F199E41F4A45A0CD0AB /* QuickRightClickApp.swift in Sources */,
+				8810E9B1EE7FD0E1A768A814 /* SettingsModel.swift in Sources */,
+				F745A1924941EEAEF3D7B934 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F66A98A75656AB882AD9A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1072B4EADA531B68A26687 /* MenuConfiguration.swift in Sources */,
+				882D62830107B6ECC8E7C54D /* ConfigurationStore.swift in Sources */,
+				2DC3DD2D843CCC394BE51323 /* MenuActionExecutor.swift in Sources */,
+				C633D16896419010834DC078 /* FinderSyncExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17A8F23711AAE3E2B3370B78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3F992C91839FEAEFF4C03D1 /* QuickRightClickExtension */;
+			targetProxy = A034BB38B5A3057FC4C817B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04A56F6686ED19A1E1BC7047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		14C55E05B63AE305FE1042A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.QuickRightClickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1D2C402067295BA5C334E011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extension/QuickRightClickExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.QuickRightClick.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+			};
+			name = Release;
+		};
+		64C1567CD0FF11D408BC57C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extension/QuickRightClickExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.QuickRightClick.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+			};
+			name = Debug;
+		};
+		96F2050E728C6E842749B16F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/QuickRightClick.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.QuickRightClick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		9D28106B896D4159F14060DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/QuickRightClick.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.QuickRightClick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		BB6735EACD09EA176A28887B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.QuickRightClickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F3D0C4AFC1DCACC8993C6761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26E84C2B3712F7DFAC8AD93F /* Build configuration list for PBXProject "QuickRightClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A56F6686ED19A1E1BC7047 /* Debug */,
+				F3D0C4AFC1DCACC8993C6761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C739B4F5D9CF01EA5EB684 /* Build configuration list for PBXNativeTarget "QuickRightClickExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C1567CD0FF11D408BC57C0 /* Debug */,
+				1D2C402067295BA5C334E011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6AD230CB080FF15A6673B47 /* Build configuration list for PBXNativeTarget "QuickRightClickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6735EACD09EA176A28887B /* Debug */,
+				14C55E05B63AE305FE1042A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FBBDE84ABCC716EC479869 /* Build configuration list for PBXNativeTarget "QuickRightClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D28106B896D4159F14060DE /* Debug */,
+				96F2050E728C6E842749B16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}
