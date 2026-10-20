@@ -324,8 +324,6 @@ xcodebuild -project QuickRightClick.xcodeproj -scheme QuickRightClick \
 
 全部测试通过即可。涉及新增菜单项的改动，记得按上文递增 `schemaVersion`。
 
-设计取舍与一次完整的 UX 评估记录见 [`docs/ux-review.md`](docs/ux-review.md)。
-
 ## License
 
 [MIT](LICENSE) © 2026 QuickRightClick contributors
